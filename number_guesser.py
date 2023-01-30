@@ -31,11 +31,10 @@ while True:
     if user_guess == random_number:
         print("You got it!")
         break
+    # Add check to see if guess was too low or too high
+    elif user_guess > random_number:
+        print("Your guess was above the number!")
     else:
-        # Add check to see if guess was too low or too high
-        if user_guess > random_number:
-            print("Your guess was above the number!")
-        else:
-            print("Your guess was below the number")
+        print("Your guess was below the number")
 
 print(f"You got it in {guesses} guesses.")
