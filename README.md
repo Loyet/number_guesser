@@ -1,1 +1,1 @@
-This is a small project I did in JavaScript. I've done the same project but in Python.
+This is a small project I did in JavaScript. Here I've done the same project but in Python.
